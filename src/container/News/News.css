@@ -1,0 +1,56 @@
+.subscribe{
+    margin-top: -5px;
+}
+
+
+.containerimage {
+    width: 100%;
+    position: relative;
+    text-align: left;
+  }
+  
+  .containerimage img {
+    width: 100%;
+  
+  }
+
+  @media(max-width: 768px) {
+    
+.containerimage {
+  
+  text-align: center;
+}
+
+.containerimage img {
+  width: 70%;
+
+}
+
+
+  }
+  
+  
+  .containerimage::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    background-image: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+
+
+  }
+
+
+  input[type=text] {
+background:#2e2e2e;
+border: none;
+border-radius: 5px;
+
+  }

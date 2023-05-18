@@ -1,0 +1,69 @@
+.bg-banner{
+    background: linear-gradient(to bottom, rgba(0,0,0,.8) 10%, rgba(0,0,0,.3) 15%, rgba(0,0,0,1)90%), url(/src/assets/banner.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+     min-height: 80vh;
+    justify-content: center;
+    padding-top: 10rem;
+    align-items: center;
+    
+}
+
+.btn-custom{
+background: linear-gradient(194.68deg, rgba(158, 218, 209, 0.1) 11.27%, rgba(61, 179, 162, 0.1) 90.4%);
+border: 2px solid var(--colorbase);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(17.5px);
+border-radius: 6px;
+font-family: var(--textbase);
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: var(--colorbase);
+margin: 3rem auto;
+padding: .8rem 1.5rem;
+display: inline-block;
+
+
+}
+
+.btn-custom:hover{
+    color: #fff;
+    border: 2px solid #fff;
+    transform: scale(1.1);
+}
+
+a.scrolldown{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: .3s ease;
+   position: absolute;
+   bottom: 20px;
+   left: 50%;
+   margin-left: -40px;
+}
+
+a.scrolldown span{
+    font-size: var(--textbase);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+a.scrolldown:hover{
+    color: #ccc;
+    transform: scale(1.2);
+}

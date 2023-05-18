@@ -1,0 +1,44 @@
+.box-headings {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+#about .box-headings {
+  border-bottom: 2px solid #fff;
+}
+
+.heading {
+  font-family: var(--textBig);
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  color: #fff;
+}
+
+.heading-subtitle {
+  font-family: var(--textBig);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  color: #fff;
+  letter-spacing: .8px;
+
+}
+
+
+@media(min-width: 1600px) {
+  .heading {
+    font-size: 100px;
+    line-height: 110px;
+  }
+}
+
+@media(max-width: 768px) {
+  .box-headings, .hero .heading, .hero .heading-subtitle  {
+    align-items: center;
+    text-align: center;
+  }
+}

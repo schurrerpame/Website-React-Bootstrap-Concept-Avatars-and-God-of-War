@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap');
+
+:root {
+    --textBig: 'Bebas Neue', sans-serif;
+    --textbase: 'Open Sans', sans-serif;
+    --colorbase:#3281C0;
+    --bs-accordion-bg: transparent;
+
+}
+
+#root{
+    background: #080A0B;
+}
+
+.bg-gradient-black{
+
+ width: 100%; 
+ background: linear-gradient(to bottom, rgba(0,0,0,.9) 10%, rgba(0,0,0,.1) 35%, rgba(0,0,0,.9)90%);
+
+}
+
+.section-padding{
+    padding: 3rem 0;
+}
+

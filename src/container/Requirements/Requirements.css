@@ -1,0 +1,42 @@
+.requirements {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1)5%, rgba(0, 0, 0, .8) 45%, rgba(0, 0, 0, 1)90%), url(../../assets/bg-requirements.png);
+    background-size: cover;
+    background-position: right center;
+
+}
+
+.requirements .box-headings {
+    align-items: center;
+    margin-bottom: 5rem;
+
+}
+
+.requirements-grid {
+  max-width: 500px;
+  margin: 2rem 2rem 6rem;
+  
+}
+
+
+.requirements-grid .col {
+    font-family: var(--textbase);
+    font-size: 16px;
+    line-height: 22px;
+    border:1px solid #474747;
+    padding: 15px;
+    color: #fff;
+ 
+    
+}
+
+
+.requirements-grid .col span{
+    font-family: var(--textBig);
+    display: block;
+    font-size: 22px;
+    line-height: 24px;    
+    letter-spacing: 2px;
+    margin-bottom: .3rem;
+    color:var(--colorbase);
+
+}
