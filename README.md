@@ -10,4 +10,4 @@ The design for this website was created by Faizan Sayani and can be accessed on 
 ## Demo Link
 To see a live demo of the website, please visit: [Demo Link](https://pameschurrer.es/game/)
 
-![Preview Image](https://pameschurrer.es/game/website.png)
+![Preview Image](https://pameschurrer.es/game/web.png)
