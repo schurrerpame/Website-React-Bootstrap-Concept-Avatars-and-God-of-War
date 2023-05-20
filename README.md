@@ -4,7 +4,7 @@ This repository contains the code and assets for a game concept website that com
 ### All the images and logo used in this project were created using artificial intelligence, based on the concept of combining avatars with the God of War theme. 
 
 ### Design by Figma
-The design for this website was created by Faizan Sayani and can be accessed on Figma at the following link: Figma Design. 
+The design for this website was created by Faizan Sayani and can be accessed on Figma at the following link: [Figma Design](https://www.figma.com/community/file/1149305833200297970/Gaming-Website-UI-Landing-Page-AC-Valhalla). 
 
 
 ## Demo Link
